@@ -1,0 +1,453 @@
+.logo {
+  background: #000;
+  line-height: 100px;
+}
+
+.logo .container .logo-img {
+  background: url("../images/logo.gif") no-repeat left center;
+  width: 100px;
+  height: 100px;
+}
+
+.logo .container ul {
+  padding: 0 50px;
+  justify-content: center;
+}
+
+.logo .container ul :nth-of-type(1) a {
+  color: #fff;
+}
+
+.logo .container ul li {
+  width: 125px;
+  float: left;
+  margin: 0 10px;
+}
+
+.logo .container ul li a:hover {
+  color: #fff;
+}
+
+.logo .container div span {
+  font-size: 17px;
+  color: #fff;
+}
+
+.logo .container div button {
+  margin-left: 30px;
+  background: #000;
+  width: 90px;
+  height: 30px;
+  border: 1px solid #a3a3a3;
+  color: #ccc;
+}
+
+.nav ul :nth-of-type(1) a {
+  color: #333;
+}
+
+.nav ul li {
+  float: left;
+  width: 80px;
+  line-height: 90px;
+}
+
+.nav ul li a {
+  color: #666;
+}
+
+.nav ul li a:hover {
+  color: #678ee7;
+}
+
+.nav ul .drop .drop-content {
+  width: 100%;
+  left: 0px;
+  top: 193px;
+  background: #ececec;
+  z-index: 100;
+}
+
+.nav ul .drop .drop-content div {
+  line-height: 30px;
+  padding: 60px 0;
+}
+
+.nav ul .drop .drop-content div p {
+  color: red;
+}
+
+.nav ul .drop:hover .drop-content {
+  display: block;
+}
+
+.nav > div {
+  float: right;
+  padding-top: 45px;
+}
+
+.nav > div i {
+  margin-right: 5px;
+}
+
+.nav > div span:not(.shopping_cart) {
+  display: inline-block;
+  width: 22px;
+  background: #666;
+  color: #fff;
+  border-radius: 11px;
+  line-height: 22px;
+}
+
+.nav > div .shopping_cart div {
+  z-index: 100;
+  color: #CCC;
+  width: 335px;
+  right: -7px;
+  top: 40px;
+  padding: 60px 10px;
+  background: #fff;
+}
+
+.nav > div .shopping_cart div .icon-iconfontcart {
+  font-size: 80px;
+}
+
+.nav > div .shopping_cart div h {
+  line-height: 30px;
+  font-size: 16px;
+  color: #333;
+}
+
+.nav > div .shopping_cart div::before {
+  content: "";
+  display: block;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+  position: relative;
+  top: -80px;
+  right: -260px;
+  width: 0px;
+}
+
+.nav > div .shopping_cart:hover > div {
+  display: block;
+}
+
+.main > .banner {
+  margin-top: 0px;
+}
+
+.main > div {
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 7px;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  border: 1px solid #E6e6e6;
+  background: #fff;
+}
+
+.main > div > p {
+  line-height: 60px;
+  font-size: 16px;
+  color: #666666;
+  padding-left: 40px;
+  background: #fafafa;
+  border-bottom: 1px solid #ececec;
+}
+
+.main > div h4 {
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+}
+
+.hot > div, .picked > div, .brand > div, .trends > div {
+  padding: 17px 0;
+}
+
+.hot div .price, .picked div .price, .brand div .price {
+  height: 40px;
+  color: red;
+}
+
+.hot div .details, .picked div .details, .brand div .details {
+  height: 40px;
+  display: none;
+}
+
+.hot div .details button, .picked div .details button, .brand div .details button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.hot div .details button:first-child, .picked div .details button:first-child, .brand div .details button:first-child {
+  background: #ccc;
+  border: 1px solid #999;
+}
+
+.hot div .details button, .picked div .details button, .brand div .details button {
+  background: #678ee7;
+  color: #fff;
+}
+
+.hot div:hover .price, .picked div:hover .price, .brand div:hover .price {
+  display: none;
+}
+
+.hot div:hover .details, .picked div:hover .details, .brand div:hover .details {
+  display: block;
+}
+
+.picked-wrap, .brand-wrap {
+  padding: 0 0 !important;
+  overflow: hidden;
+  height: 427.2px;
+}
+
+.change {
+  padding: 20px 0;
+  height: 60px;
+}
+
+.change ul {
+  display: flex;
+  justify-content: center;
+}
+
+.change ul .hong {
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin: 0 5px;
+}
+
+.change ul .hong div {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.change ul .hong:hover {
+  border: 1px solid #999 !important;
+}
+
+.change ul .choice {
+  border: 1px solid #999 !important;
+}
+
+.banner {
+  height: 500px;
+  margin-top: 0px;
+}
+
+.display {
+  overflow: hidden;
+}
+
+.display div {
+  height: 197px;
+}
+
+.display div:nth-of-type(1) {
+  background: url("../images/4-1.jpg") no-repeat center center;
+}
+
+.display div:nth-of-type(2) {
+  background: url("../images/4-2.jpg") no-repeat center center;
+}
+
+.display div:nth-of-type(3) {
+  background: url("../images/4-3.jpg") no-repeat center center;
+}
+
+.display div:nth-of-type(4) {
+  background: url("../images/4-4.jpg") no-repeat center center;
+}
+
+.trends {
+  overflow: hidden;
+}
+
+.trends div {
+  height: 197px;
+}
+
+.trends div:nth-of-type(1) {
+  background: url("../images/8-1.jpg") no-repeat center center;
+}
+
+.trends div:nth-of-type(2) {
+  background: url("../images/8-2.jpg") no-repeat center center;
+}
+
+.trends div:nth-of-type(3) {
+  background: url("../images/8-3.jpg") no-repeat center center;
+}
+
+.trends div:nth-of-type(4) {
+  background: url("../images/8-4.jpg") no-repeat center center;
+}
+
+.apply button, .forum button {
+  width: 100px;
+  height: 35px;
+  right: 30px;
+  top: 13px;
+  background: #fefefe;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+}
+
+.apply > div:hover .apply-top, .forum > div:hover .apply-top {
+  display: none;
+}
+
+.apply > div:hover .apply-button, .forum > div:hover .apply-button {
+  display: block;
+}
+
+.apply a, .forum a {
+  line-height: 30px;
+}
+
+.apply > div {
+  height: 355px;
+}
+
+.apply > div > div {
+  padding: 50px 35px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.apply > div > div > img {
+  margin: 40px 0;
+}
+
+.apply > div > div p {
+  height: 50px;
+}
+
+.apply > div > div a {
+  color: #678ee7;
+}
+
+.apply > div > div a:hover {
+  color: #0066ff;
+}
+
+.apply > div > div .system img {
+  margin: 20px 0 0;
+}
+
+.apply > div > .apply-button p {
+  height: 25px;
+  color: #666;
+}
+
+.forum > div {
+  padding: 30px;
+}
+
+.forum > div div {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 240px;
+  height: 155px;
+}
+
+.forum > div h4 {
+  margin-top: 30px;
+  height: 45px;
+}
+
+.forum > div p {
+  height: 40px;
+}
+
+.forum > div a {
+  color: #0066ff;
+}
+
+.foot {
+  background: #fafafa;
+  margin-top: 30px;
+}
+
+.foot ul {
+  margin: 50px 90px 50px 0;
+  float: left;
+  line-height: 22px;
+}
+
+.foot ul ol {
+  color: #000;
+}
+
+.foot .help {
+  margin: 60px 0 0;
+  float: right;
+  text-align: right;
+}
+
+.foot .help h1 {
+  color: #646464;
+}
+
+.foot .help button {
+  margin-top: 5px;
+  width: 120px;
+  height: 35px;
+  background: #fafafa;
+  border: 1px solid #ccc;
+  color: #0066ff;
+}
+
+.foot .help button i {
+  top: 1px;
+  left: 0px;
+}
+
+.foot .footer {
+  height: 125px;
+  border-top: 1px solid #ccc;
+  padding: 50px 0;
+}
+
+.foot .footer p {
+  color: #333;
+  line-height: 25px;
+}
+
+.foot .footer p a {
+  border-left: 1px solid #ccc;
+  color: #678ee7;
+}
+
+.foot .footer p a:hover {
+  color: #0066ff;
+}
+
+.foot .footer div {
+  right: 30px;
+  top: 20px;
+}
+
+.foot .footer div select {
+  width: 80px;
+  border: 0px;
+  background: #fafafa;
+}
+
+.foot .footer option {
+  background: url("../images/language.png") no-repeat center 20%;
+}

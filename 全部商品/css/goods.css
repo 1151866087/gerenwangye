@@ -1,0 +1,31 @@
+@import "base.css";
+@import "header.css";
+@import "footer.css";
+.shouye{
+    line-height: 40px;
+}
+.good>p{
+    width: 100%;
+    line-height: 60px;
+    font-size: 16px;
+    border-bottom: 1px solid #dedede;
+    color: #333;
+}
+.good{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+}
+.goods{
+    padding:0 43px;
+    margin: 35px 0; 
+    width: 248px;
+    line-height: 30px;
+}
+.goods ul li:first-child{
+    color: #333;
+    font-size:16px;
+}
+.border-left{
+    border-left: 1px solid #dedede;
+}
